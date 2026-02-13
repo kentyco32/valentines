@@ -3,9 +3,8 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  gap: 40px;
   background: #f8f6f1;
   text-align: center;
   padding: 20px;
@@ -14,7 +13,10 @@ body {
 }
 
 #hedlinecontainer {
-  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  margin-top: -10vh;
 }
 
 #shine {
@@ -43,7 +45,7 @@ body {
   place-items: center;
   width: 65vw;
   max-width: 250px;
-  margin-bottom: 0;
+  margin-bottom: 60px;
 }
 
 .gallery > img {
